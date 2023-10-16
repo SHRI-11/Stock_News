@@ -30,7 +30,7 @@ if close2 > close1:
 else:
     percentage_diff = f"🔺%{percentage}"
 
-if percentage > 0:
+if percentage > 5:
     news_url = "https://newsapi.org/v2/everything?"
     news_params = {
         "q": COMPANY_NAME,
